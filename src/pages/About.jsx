@@ -1,5 +1,7 @@
 import React from 'react'
 import { MdCode } from "react-icons/md";
+import bgimg from '../../public/img/blob/2.svg'
+import img from '../../public/img/about.svg'
 function About() {
   return (
     <div className='w-full'>
@@ -18,15 +20,15 @@ function About() {
                 <div className="flex justify-center md:mb-0 mb-20 py-5">
                 <img
                     className="z-30"
-                    src="/img/about.svg"
+                    src={img}
                     alt="about me"
                     width={200}
                     height={200}
                     data-aos="fade-up-right"
                 />
                 <img
-                    src="/img/blob/2.svg"
-                    className="absolute "
+                    src={bgimg}
+                    className="absolute mt-10 md:mt-16"
                     alt="blob"
                     width={350}
                     height={350}
@@ -34,7 +36,7 @@ function About() {
                     data-aos-duration="1500"
                 />
                 </div>
-                <div className="ml-5 mr-10 pt-10 pe-5">
+                <div className="ml-5 mr-2 lg:mr-20 pt-10 pe-3">
                         <h1 className="text-2xl lg:text-3xl font-bold leading-9" data-aos="fade-up">
                         About Me
                         </h1>
@@ -45,8 +47,9 @@ function About() {
                         ></div>
                     
                         <p className="mt-5 text-md lg:text-lg font-be-vietnam">
-                            I’m Yaswanth, a web developer with expertise in HTML, CSS, JavaScript, and frameworks such as React and Node.js. I have  1.5 years of experience creating responsive and user-friendly websites for a variety of clients. My approach focuses on clean code and efficient problem-solving, ensuring high-quality results. I am dedicated to staying updated with industry trends and continuously improving my skills. Outside of work, I enjoy [a personal interest or hobby], which helps inspire my projects. Let’s connect to discuss how I can contribute to your next project.
+                        Hi, I’m Yaswanth Ullingala, a passionate Electronics and Communication Engineering graduate turned web developer. With experience in React.js, Tailwind CSS, and JavaScript, I build responsive and user-friendly web applications. My journey from embedded systems and AI to web technologies has sharpened my problem-solving skills and creativity.
                         </p>
+                        <p className='mt-5 text-md lg:text-lg font-be-vietnam'>I love tackling new challenges and continuously learning. Feel free to explore my work and reach out for collaboration!</p>
                         <a
                         href="https://www.dropbox.com/scl/fi/mz0qk0247n3dl9sxtzp2b/Yaswanth_Resume.pdf?rlkey=m89jjod4u7dbe8qw84gje1czt&st=u72tlhtw&dl=0"
                         target="_blank"
