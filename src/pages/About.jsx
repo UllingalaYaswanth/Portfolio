@@ -51,7 +51,7 @@ function About() {
                         </p>
                         <p className='mt-5 text-md lg:text-lg font-be-vietnam'>I love tackling new challenges and continuously learning. Feel free to explore my work and reach out for collaboration!</p>
                         <a
-                        href="https://www.dropbox.com/scl/fi/mz0qk0247n3dl9sxtzp2b/Yaswanth_Resume.pdf?rlkey=m89jjod4u7dbe8qw84gje1czt&st=u72tlhtw&dl=0"
+                        href="https://www.dropbox.com/scl/fi/x8wq63re50ofmoozp06rv/Yaswanth_Resume.pdf?rlkey=75vubrzymrafpmf9a1xc7lrr6&st=as9ws3u6&dl=0"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block w-40 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 px-4 border border-blue-500 hover:border-transparent rounded-full flex items-center mt-6 md:mt-9 transition delay-150 duration-200"

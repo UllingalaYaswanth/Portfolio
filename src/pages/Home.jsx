@@ -44,8 +44,8 @@ let [social] = useState([
 ])
   return (
     <div>
-        <section className='h-[750px] space-y-10 md:flex gap-20 items-center p-6 py-40 lg:mt-20 xl:mt-40 transition delay-100 duration-200'>
-            <div className='flex gap-10 md:gap-20 items-center'>
+        <section className='h-[750px] md:flex space-y-14 md:space-y-0 gap-20 items-center p-6 py-40 lg:mt-20 xl:mt-30 transition delay-100 duration-200'>
+            <div className='flex mt-10 gap-10 md:gap-20 items-center'>
                 <div className='flex flex-col items-center justify-center text-xl md:text-2xl lg:text-3xl text-custom-gray space-y-7'>
                     {
                         social.map(({href,icon}) => {
@@ -61,7 +61,7 @@ let [social] = useState([
                 </div>
                 <div className='flex flex-col items-left space-y-3'>
                 <h1 className='text-5xl md:text-6xl lg:text-7xl font-playfair font-bold text-custom-blue'>Hi. I am a</h1>
-                <h1 className='text-5xl md:text-6xl lg:text-7xl font-amatic font-bold text-custom-blue'>Web Developer</h1>
+                <h1 className='text-5xl md:text-6xl lg:text-7xl font-amatic font-bold text-custom-blue'>Frontend Developer</h1>
                 <h1 className='text-5xl md:text-6xl lg:text-7xl font-playfair font-bold text-custom-blue'>Yaswanth Ullingala</h1>
                 </div>
               
@@ -85,6 +85,9 @@ let [social] = useState([
                     data-aos-duration="1500"
                 />
                 </div>
+                {/* <div className='flex justify-center bg-red-200 '>
+                <img src='img/profile2.png' className=' md:w-[50%] w-[60%] rounded-[8%]'/>
+                </div> */}
         </section>
         <div className='animate-sb pt-10 flex justify-center'>
           <a href='#about'>

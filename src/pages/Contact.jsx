@@ -43,8 +43,8 @@ function Contact() {
                       data-aos-duration="1000"
                     ></div>
 
-                    <ul className="list-disc ml-5 mt-1 text-sm md:text-md">
-                      <li>{`yaswanth2819`}</li>
+                    <ul className="list-disc ml-5 mt-1">
+                      <li className='md:text-lg'>{`yaswanth2819`}</li>
                     </ul>
                   </div>
 
@@ -66,7 +66,7 @@ function Contact() {
                       <li>
                         <a
                           href="mailto:yaswanthullingala@gmail.com"
-                          className="hover:text-indigo-500"
+                          className="hover:text-indigo-500 md:text-lg"
                         >
                           yaswanthullingala@gmail.com
                         </a>{" "}
